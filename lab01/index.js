@@ -9,7 +9,7 @@ const app = express();
 app.get('/', function(req, res){
     // req -> request (i.e, what the browser sends to the server)
     // res -> response (i.e, what your server will send back)
-    res.send('<h1>Hello from the other side</h1>')
+    res.send('<h1>Hello from Express</h1>')
 })
 
 // expose the server for the other browsers to connect to
